@@ -10,7 +10,8 @@ python3 -m pip install --user pyfilewatcher
 ```
 
 ### Manual
-**Currently still in progress!**
+Download the folder from `https://github.com/bbenouarets/pyfilewatcher/tree/main/src/pyfilewatcher` and copy it into your project into the folder `modules`.
+Then you can import the package via `from modules.pyfilewatcher import FileWatcher`.
 
 ## Example
 ```python
