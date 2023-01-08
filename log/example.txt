@@ -1,0 +1,4 @@
+2023-01-08 23:41:53 observer[532735]: test/example.txt changed!
+2023-01-08 23:41:56 observer[532735]: test/example.txt changed!
+2023-01-08 23:41:59 observer[532735]: test/example.txt changed!
+2023-01-09 00:22:17 observer[574212]: test/example.txt changed!

@@ -1,1 +1,2 @@
-from .watch import Watcher
+from .observer import Observer
+from .watcher import Watcher

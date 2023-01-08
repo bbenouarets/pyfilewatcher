@@ -1,1 +1,2 @@
-from .log import LogHandler
+from .log import Log
+from .db.mysql import MySQLDatabase
