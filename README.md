@@ -4,7 +4,7 @@ The python package for monitoring files and directories provides a fast and effi
 The package is also easy to integrate and can be effortlessly incorporated into existing projects. It provides icomprehensive documentation to get you started.
 Overall, our Python package for monitoring files and directories is a powerful and reliable choice for anyone who wants to monitor changes to files and directories.
 
-![Download Badge](https://img.shields.io/github/downloads/bbenouarets/pyfilewatcher/total?style=for-the-badge)
+![Download Badge](https://img.shields.io/github/downloads/bbenouarets/pyfilewatcher/total?style=for-the-badge) ![Last commit badge](https://img.shields.io/github/last-commit/bbenoaurets/pyfilewatcher?color=%231BCBF2&style=for-the-badge)
 
 ## Installation
 
