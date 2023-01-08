@@ -1,1 +1,1 @@
-from .file import FileWatcher
+from .watch import Watcher
