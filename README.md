@@ -37,3 +37,7 @@ locations = [
 observer = Observer()
 observer.watch(locs=locations)
 ```
+
+## Handler
+- [x] Log file
+- [ ] MySQL database
