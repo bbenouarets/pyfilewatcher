@@ -50,4 +50,5 @@ observer.watch(locs=locations)
 ## Handler
 
 - [x] Log file
-- [ ] MySQL database
+- [x] MySQL database
+- [ ] HTTP Endpoint (e.g. API)

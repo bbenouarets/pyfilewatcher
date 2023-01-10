@@ -18,6 +18,8 @@ class Observer:
         if data["handler"] in __handler:
             if data["handler"] == "log":
                 self.__callback = self.__log()
+            if data["handler"] == "mysql":
+                self.__callback = self.__mysql()
 
     def __config(self) -> dict:
         __config = configparser.ConfigParser()
@@ -36,7 +38,18 @@ class Observer:
         return self.__handler.write
 
     def __mysql(self) -> dict:
-        pass
+        __config = configparser.ConfigParser()
+        __config.read(self.config)
+        cnx = {
+            "host": __config["mysql"]["host"],
+            "port": __config["mysql"]["port"],
+            "user": __config["mysql"]["user"],
+            "password": __config["mysql"]["password"],
+            "database": __config["mysql"]["database"]
+        }
+        self.__handler = MySQLDatabase(connection=cnx)
+        return self.__handler.write
+        
 
     def files(self, path: str) -> list:
         x = []
