@@ -66,6 +66,7 @@ observer.watch(locs=locations)
 
 ## Handler
 
+Following handler has integrated:
 - [x] Log file
 - [x] MySQL database
 - [ ] HTTP Endpoint (e.g. API)
